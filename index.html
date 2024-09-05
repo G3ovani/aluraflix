@@ -4,10 +4,59 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap"
         rel="stylesheet">
     <title>TrenFlix</title>
+    <style>
+        body {
+            font-family: 'Chakra Petch', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        .chamada {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .chamada-texto {
+            margin-bottom: 20px;
+        }
+
+        .categoria {
+            margin: 40px 0;
+        }
+
+        .categoria-videos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .categoria-videos a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+        }
+
+        .categoria-videos img {
+            width: 200px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,9 +80,10 @@
         <h2>Filmes e séries</h2>
         <div class="categoria-videos">
             <a href="https://youtu.be/KYHz4i1UjyQ?si=vrXMN2d4dAjoae1X">
-            
+                <img src="https://img.youtube.com/vi/KYHz4i1UjyQ/hqdefault.jpg" alt="Thumbnail do Vídeo 1">
             </a>
             <a href="https://youtu.be/RKRy8Zgp4L0?si=6nD7x9c_ppOJmPot">
+                <img src="https://img.youtube.com/vi/RKRy8Zgp4L0/hqdefault.jpg" alt="Thumbnail do Vídeo 2">
             </a>
         </div>
     </section>
